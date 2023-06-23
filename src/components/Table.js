@@ -12,6 +12,7 @@ const Table = ({ data, handleDelete, handleEdit }) => {
     <table className="table">
       <thead>
         <tr>
+          <th>Id</th>  
           <th>Title</th>
           <th>Description</th>
           <th>Actions</th>
@@ -21,11 +22,14 @@ const Table = ({ data, handleDelete, handleEdit }) => {
         {/* Iterate over the data array and create table rows */}
         {data.map((item) => (
           <tr key={item.id}>
+            <td>{item.id}</td>
             <td>{item.title}</td>
             <td>{item.description}</td>
             <td>
               {/* Edit button with handleEdit callback */}
               <button onClick={() => handleEdit(item)}>Edit</button>
+              {/* Add space between Edit and Delete buttons */}
+              {' '}
               {/* Delete button with handleDelete callback */}
               <button onClick={() => handleDelete(item.id)}>Delete</button>
             </td>
