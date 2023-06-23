@@ -1,0 +1,22 @@
+/* Styles for the tabs container */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the tab buttons */
+  .tabs button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for the active tab button */
+  .tabs button.active {
+    background-color: #ddd;
+  }
+  
