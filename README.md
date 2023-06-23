@@ -43,5 +43,3 @@ The application is deployed and accessible at [crud-app-mohin.netlify.app](https
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
-
-Please note that you may need to adjust the installation instructions and technologies used based on your specific project setup.
