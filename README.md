@@ -1,50 +1,47 @@
 # CRUD App
 
-This is a simple CRUD (Create, Read, Update, Delete) application built with React. It allows you to manage tasks, employees, and cars.
+A simple CRUD (Create, Read, Update, Delete) application built with React.
 
-## Table of Contents
+## Description
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-
-- Create new items (tasks, employees, cars)
-- Read existing items
-- Update items
-- Delete items
+This application allows you to manage tasks, employees, and cars using a user-friendly interface. You can add, edit, and delete items in each category.
 
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/mohinmakandar/crud-app.git
    ```
-2. Navigate to the project directory:
+
+2. Install the dependencies:
    ```
-   cd CRUD-App
-   ```
-3. Install the dependencies:
-   ```
+   cd crud-app
    npm install
    ```
 
 ## Usage
 
-1. Start the development server:
+1. Run the application:
    ```
    npm start
    ```
-2. Open your web browser and visit `http://localhost:3000` to access the app.
 
-## Contributing
+2. Open your browser and visit `http://localhost:3000` to access the application.
 
-Contributions are welcome! If you find any issues or would like to add new features, please open an issue or submit a pull request.
+## Deployment
+
+The application is deployed and accessible at [crud-app-mohin.netlify.app](https://crud-app-mohin.netlify.app).
+
+## Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 ```
+
+Please note that you may need to adjust the installation instructions and technologies used based on your specific project setup.
